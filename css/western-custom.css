@@ -1,0 +1,228 @@
+body {
+background-image: url(../img/bkg/bkg-airplane-footer.png);
+background-position: bottom;
+background-repeat: no-repeat;
+}
+
+.feature-box { /* Controls the feature-box */
+background: #eee;
+}
+
+.spotlight-label { /* Controls the "Entrepreneur Spotlight" label in the feature-box */
+font-size: 50%;
+}
+
+.jumbotron { /* Controls header jumbotron sizing  */
+  padding-top: 100px;
+  background-image: url(../img/bkg/gradient-facet-md-purple-2.png);
+  border-bottom: 3px solid #ddd;
+  color: #fff;
+}
+.profiles { /* Controls all profile thumbnails */
+  text-align: center;
+  padding: 0;
+  padding-right: 15px;
+}
+.section-title {
+  border-bottom: 1px solid #ddd;
+}
+.img-caption {
+  font-style: italic;
+}
+.successful-companies {
+  text-align: center;
+}
+/* Controls the RSS feeds being pulled into the page */
+.rss-feed {
+  ...
+}
+.rss-feed h4 {
+  ...
+}
+.rss-feed img {
+  ...
+  width: 100%;
+}
+.rss-feed a, a:hover, a:visited, a:active {
+  color: #337ab7;
+}
+.slider {
+  width: 50%;
+  margin: 100px auto;
+}
+strong {
+  font-family: rubik;
+  font-weight: 500;
+}
+.callout {
+  background: #e9fbf0;
+  padding: 14px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 1.3em;
+}
+h1, h2 {
+  font-weight: normal;
+}
+.toplink {
+  font-size: 50%;
+  float: right;
+  margin-top: 15px;
+  color: #bbb;
+}
+.divider {
+  color: #bbb;
+}
+.featured-companies {
+  float: left;
+  width: 33%;
+}
+.fullwidthimg {
+  width: 100%;
+}
+.hiddenpanel {
+  display: none;
+  width: 50%;
+  border-radius: 6px;
+}
+.quote {
+  font-size: 150%;
+}
+.hiddenbioheadshot {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+#footerborder {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+#footerlogo {
+  text-align: right;
+}
+.mobile-hide {
+  background: transparent;
+}
+.ecosystem {
+  padding: 25px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+/* Controls the Ecosystem gradients */
+#gradient-purple {
+  background: -webkit-linear-gradient(left,rgba(197,167,207,1),rgba(112,93,116,1));
+}
+#gradient-blue {
+  background: -webkit-linear-gradient(left,rgba(0,140,193,1),rgba(0,78,108,1));
+}
+#gradient-red {
+  background: -webkit-linear-gradient(left,rgba(237,28,36,1),rgba(135,15,20,1));
+}
+#gradient-gold {
+  background: -webkit-linear-gradient(left,rgba(186,145,16,1),rgba(104,79,4,1));
+}
+
+@media screen and (max-width: 2000px) { /* Resizes the slider when the viewport is more narrow */
+  .slider {
+    width: 59%;
+    margin: 100px auto;
+  }
+}
+
+@media screen and (max-width: 1700px) { /* Resizes the slider when the viewport is more narrow */
+  .slider {
+    width: 70%;
+    margin: 100px auto;
+  }
+}
+
+@media screen and (max-width: 1375px) { /* Resizes the slider when the viewport is more narrow */
+  .slider {
+    width: 90%;
+    margin: 100px auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+}
+@media screen and (max-width: 585px) { /* Hides the slides when the browser collapses at the point when the bullets would stack or come out of alignment */
+  .mobile-hide {
+    display: none;
+  }
+}
+.navbar-inverse {
+  background: #3c1470;
+}
+.navbarlinks {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.flip-container, .front, .back {
+  margin: 0;
+  padding: 0;
+}
+.back p {
+  color:#000;
+}
+.front p {
+color:#000;
+font-size:1.15em;
+}
+.flip-container, .front, .back {
+height: 500px;
+}
+.back {
+padding: 20px;
+font-size: 1.4em;
+color: #000;
+}
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* MH */

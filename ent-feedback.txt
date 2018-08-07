@@ -1,0 +1,7 @@
+From: [required-email]
+To: ent-inquiry@uwo.ca
+Subject: I Want to Inquire about Entrepreneurship Opportunities at Western form submission
+
+Info-seeker's name: [name]
+Info-seeker's email address: [required-email]
+Info-seeker's message: [message]

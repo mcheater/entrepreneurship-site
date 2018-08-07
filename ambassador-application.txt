@@ -1,0 +1,10 @@
+From: [required-email]
+To: ent-inquiry@uwo.ca
+Subject: I Want to be an Innovation Ambassador Message
+
+Applicant's name: [name]
+Email address: [required-email]
+Applicant's faculty: [required-faculty]
+
+Applicant's Expertise: [expertise]
+Why the applicant is interested: [why-are-you-interested]

@@ -1,0 +1,51 @@
+body:not(.modal-open){padding-right: 0px !important; margin-top: 50px;} /* Fixes the Bootstrap modal page-shift issue */
+
+.section-title {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 25px;
+  width: 100%;
+  font-weight: normal;
+  padding-top: 175px;
+  margin-top: -100px;
+}
+.bio {text-align: center;}
+.more-timely-content {background: #eefbff; padding: 10px;}
+.timely-content-list {margin:0; padding:0; list-style-type: none;}
+.timely-content-list li {padding-top: 14px; border-top: 1px solid #eee;}
+.full-width-image {width: 100%;}
+.navbar, .navbar-expand-lg, .navbar-light {background: #3c1470;}
+.nav-item, .navbar a:visited {color:#fff;}
+.card, .card-title {font-size: 1.6em; font-weight: normal;}
+.card {
+  height: 400px;
+  border:0;
+  color: #fff;
+  padding-top: 20px;
+}
+.card-blue {background: #c9f1fc; color:#000; border:12px solid #eefbff;}
+.nav-link {color: #fff !important;} /* Sets the upper nav colour */
+.nav-link:hover, .navbar-brand:hover {color: #c9f1fc !important; text-decoration: underline;} /* Sets the upper nav and page title hover state colour */
+.navbar-toggler {background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 45 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");} /* Sets the dropdown notifier colour */
+.btn-primary {background:#c9f1fc; color:#000; border:1px solid #eefbff;}
+.btn-primary:hover {background:#eefbff; color:#000; border:1px solid #c9f1fc;}
+.hvrbox-layer_top h2, .hvrbox-layer_top p {padding-left: 20px;}
+.hvrbox-layer_top p {font-size: 1.1em;}
+.blue-alert {background:#c9f1fc; padding: 40px; font-size: 3em; border:12px solid #eefbff;}
+.blue-alert-airplane {float: right; position: relative; margin-top: -35px; margin-right: -55px;}
+.footer {border-top: 1px solid #ddd; padding-top: 25px;}
+
+form p {line-height: 1.5em; color: #000; padding: 7px;}
+.textinput {width:100%; border: 1px solid #ddd; padding: 7px; font-size: 1em;}
+textarea {width:100%; border: 1px solid #ddd; padding: 7px; font-size: 1em;}
+.submitbtn {font-size: 1.2em; border: 1px solid #ddd; background:#eee; padding:7px;}
+
+.pastnews li {padding: 10px;}
+.toplink {font-size:.6em;float:right;padding-top: 10px;}
+
+.titlebar {display:none;}
+.popovertext {padding-right: 20px;}
+
+@media (max-width:800px) {
+  #applynowbox { font-size: 0.5em;}
+}
